@@ -1,0 +1,38 @@
+* { 
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+input {
+  background: lightgray;
+  border-radius: 5px;
+  height: 30px;
+}
+
+textarea {
+  border-radius: 10px;
+  resize: none; /* values could be horizontal or vertical or auto */
+}
+
+fieldset {
+  background-color: #ADEBB3;
+}
+
+legend {
+  background: #FDFBD4;
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+:focus {
+  background: lightblue;
+}
+
+input[type=submit], input[type=reset] {
+  background: yellow;
+  width: 100px;
+  padding: 2px;
+  color: black;
+  margin-bottom: 10px;
+}
