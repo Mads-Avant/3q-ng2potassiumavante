@@ -35,6 +35,7 @@ function determineGL(gradelevel) {
   else if (gradelevel = "ten") {dGraLev = "Grade 10";}
   else if (gradelevel = "eleven") {dGraLev = "Grade 11";}
   else {dGraLev = "Grade 12";}
+    console.log(dGraLev);
   return dGraLev; 
 }
 
@@ -42,6 +43,7 @@ function determineIE(internextern) {
   let dIntExt="";
   if (internextern == "intern") {dIntExt = "Intern";}
   else {dIntExt = "Extern";}
+    console.log(dIntExt);
   return dIntExt; 
 }
 
@@ -52,6 +54,7 @@ function determinePOC(preferredoc) {
   else if (preferredoc = "oc3") {dOrgClu = "Book Club";}
   else if (preferredoc = "oc4") {dOrgClu = "Fencing Club";}
   else {dOrgClu = "Theatre Club";}
+    console.log(dOrgClu);
   return dOrgClu; 
 }
 
